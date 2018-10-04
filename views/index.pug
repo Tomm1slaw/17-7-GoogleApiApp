@@ -1,0 +1,9 @@
+doctype html
+html
+    head
+        title="Login App"
+    body(style="text-align:center; background:blue;")
+        h1 Do You want to log on google?
+        form(action="http://localhost:3000/auth/google", method="GET")
+            label(for="button")
+            input(type="submit", id="button", value="Log In!")
